@@ -1,0 +1,27 @@
+<resources>
+
+
+    <style name="MyColor">
+        <item name="iconColourFilter">#bcde7c</item>
+        <item name="focalRadius">50dp</item><!--내부 원 반지름-->
+    </style>
+
+    <style name="Bottom">
+        <item name="iconColourFilter">#bcde7c</item><!--아이콘 색상-->
+        <item name="focalRadius">50dp</item><!--내부 원 반지름-->
+        <item name="target">@id/bottompuzzleleaf</item>
+        <item name="primaryText">Puzzleleaf</item>
+        <item name="secondaryText">이것은 하단 퍼즐잎 로고 입니다.</item>
+        <!--글자 색상-->
+        <item name="primaryTextColour">#ffffff</item>
+        <item name="secondaryTextColour">#ffffff</item>
+        <!--배경 색상-->
+        <item name="backgroundColour">#9ACA66</item>
+        <item name="focalColour">#ffffff</item>
+        <item name="primaryTextSize">10sp</item>
+        <item name="secondaryTextSize">22sp</item>
+        <item name="maxTextWidth">600dp</item>
+        <item name="textPadding">80dp</item>
+    </style>
+
+</resources>
